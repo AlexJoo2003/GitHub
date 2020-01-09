@@ -6,8 +6,12 @@ namespace GitHub
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
-
+            Console.WriteLine("Password: ");
+            string passw = Console.ReadLine();
+            while (passw != "1234"){
+                print("Wrong");
+            }
+            Console.WriteLine("Correct!");
         }
     }
 }
